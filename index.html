@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head> 
+<body>
+    <div class="flex justify-between sm:px-16 sm:pt-4  pt-2 ">
+        <!-- Logos -->
+         <div class="sm:flex sm:space-x-2  sm:pt-0   sm:pl-0 flex space-x-2 pl-32 pt-4 ">
+            <h1 class="bg-yellow-400 w-8 h-8 text-2xl font-semibold text-center rounded-sm ">N</h1>
+            <h1 class="text-2xl font-semibold">NAND</h1>
+         </div>
+
+         <!-- navigations -->
+         <ul class="sm:flex space-x-6 text-2xl hidden">
+            <li><a class="hover:bg-yellow-400 duration-500 p-1 rounded-sm" href="">Home</a></li>
+            <li><a class="hover:bg-yellow-400 duration-500 p-1 rounded-sm" href="">About</a></li>
+            <li><a class="hover:bg-yellow-400 duration-500 p-1 rounded-sm" href="">Rooms</a></li>
+            <li><a class="hover:bg-yellow-400 duration-500 p-1 rounded-sm" href="">Service</a></li>
+            <li><a class="hover:bg-yellow-400 duration-500 p-1 rounded-sm" href="">Price</a></li>
+         </ul>
+        
+        
+        <!-- Button -->
+         <div class="sm:flex hidden">
+            <button class="bg-yellow-400 hover:bg-blue-700 text-white font-bold py-1 px-4 rounded">Login</button>
+         </div>
+    </div>
+
+    <!-- section one -->
+
+    <div>
+      <div class="bg-[url(./images/background.jpg)] sm:bg-cover bg-center bg-no-repeat  sm:w-[1120px] sm:h-screen sm:ml-20  sm:mt-8 w-screen h-screen ml-0  mt-4 rounded-lg ">
+         <div class="sm:flex justify-around ">
+            <!-- left side -->
+            <div class="sm:left-side sm:w-[400px]  sm:pt-32 sm:p-0 text-white p-10">
+               <h1 class="text-4xl font-semibold">Best Place to Find 
+                  Comfortable <br> Hotel and Resort</h1>
+                  <p class="text-[20px] pt-8 font-semibold text-white">
+                     Have you ever come across a hotel that feels like home? if
+                     not, you can find the hotel here
+                  </p>
+            </div>
+
+            <!--  right-->
+              <div class="right-side bg-white w-[400px] rounded-xl p-10 mt-20">
+               <h1 class="text-2xl ">Booking Hotel</h1>
+               <p class="pb-3">let start ordering your place to stay.</p>
+               <form >
+                  <label for="" class="text-lg ">Location</label> <br>
+                  <input class="rounded-xl  w-[250px] h-[40px] py-1 bg-gray-300" type="text" placeholder="Enter Your Location, City , Etc">
+                  <div class="flex justify-between pt-8 ">
+                     <div> 
+                        <label>Checkin</label><br>
+                        <input class="py-2 w-[100px] h-[20] bg-gray-200 rounded-xl" type="text" placeholder="23 oct 2023"> <br> 
+                     </div>
+                     <div> 
+                        <label>Check Out</label><br>
+                        <input class="py-2 w-[100px] h-[20] bg-gray-200 rounded-xl" type="text" placeholder="23 oct 2023"> <br> 
+                     </div>
+                  </div>
+                  <button class="w-[300px] h-[40px] bg-yellow-400 text-white rounded-xl font-bold py-2 mt-10">Book Now</button>
+               </form>
+              </div>
+         </div>
+      </div>
+
+      <!-- section 2 -->
+       <div class="sm:flex sm:space-x-3 sm:px-20 sm:pt-8 sm:flex-nowrap flex justify-between flex-wrap">
+         <div class="sm:mt-0 mt-3  ">
+            <h1 class="font-semibold text-2xl  sm:text-left text-center">Partner with</h1>
+            <h1 class="sm:w-[400] w-[400px] sm:px-0 px-4 sm:text-left text-center">We partner with mony digital wallets, to
+               make you transections eaisier</h1>
+         </div>
+
+         <div class="pt-2">
+            <img src="/images/visa-logo-png-2029.png" class="w-[100px] h-[50px] "  alt="">
+         </div>
+         <div class="p-3">
+            <img src="/images/paypal-logo-png-2114.png " class="w-[200px]" alt="">
+         </div>
+         <div>
+            <img src="/images/mastercard-26161.png " class= "sm:w-[200px] w-[100px]" alt="">
+         </div>
+         <div class="pt-6">
+            <img src="/images/discover-logo-png-pic-5667.png " class="sm:w-[200px] w-[200px] " alt="">
+         </div>
+         <div class="pt-2">
+            <img src="/images/strip.png " class="sm:w-[200px] w-[200px]" alt="">
+         </div>
+         <div>
+            <img src="/images/lemon.jpg " class="sm:w-[200px] w-[200px]" alt="">
+         </div>
+       </div>
+   </div>
+
+   <!-- sectopn3 -->
+    <div class="bg-gray-300 sm:h-screen h-[1350px] w-screen">
+      <div class="sm:flex sm:justify-between flex justify-between sm:pl-0 pl-4 ">
+      <div class="sm:pt-8 sm:pl-20 sm:w-[400px]  w-[300px]">
+         <h1 class="text-orange-600 font-semibold ">HOT OFFER</h1>
+         <h1 class="text-2xl">Best offer of the month</h1>
+         <h1 class="sm:pt-6">Explore our best offer for you stay while you're on vacation <br>
+            with family or bussiness trip</h1>
+      </div>
+      <div class="sm:mr-20 sm:mt-20 sm:w-[200px]  mt-14  ">
+         <p class="text-orange-600">Veiow All</p>
+      </div>
+   </div>
+
+   <!-- boxes -->
+         <div class="sm:flex sm:justify-center sm:gap-2 ">
+            <div class="w-[380px] h-[370px] bg-white p-6   mt-8  rounded-lg">
+
+            <div>
+               <img src="./images/image1.jpg" alt="" class="w-[350px] rounded-2xl">
+            </div>
+
+            <div class="flex justify-between">
+               <div >
+               <h1 class="pt-3 font-semibold">Venice Hotel</h1>
+               <div class="flex space-x-2 pt-3">
+                  <i class="fa-solid fa-droplet text-orange-500 pt-1"></i>
+                  <h1>2715 Sh.South Dakota
+                  </h1>
+               </div>
+              </div>
+
+               <div class="flex pt-8 space-x-1">
+                  <i class="fa-solid fa-star text-orange-500  "></i>
+                  <p>4.8(45)</p>
+               </div>
+            </div>
+
+            <div class="">
+               <div class="flex justify-between mt-4">
+                  <h1 class="font-semibold">$750.35</h1>
+                  <div class="flex space-x-2">
+                     <i class="fa-solid fa-poo  "></i>
+                     <p class="font-semibold">4Day/3Nigh</p>
+                  </div>
+
+               </div>
+            </div>
+            </div>
+            
+            <!-- box2 -->
+
+            <div class="w-[380px] h-[370px] bg-white p-6   mt-8  rounded-lg">
+
+               <div>
+                  <img src="./images/image1.jpg" alt="" class="w-[350px] rounded-2xl">
+               </div>
+   
+               <div class="flex justify-between">
+                  <div >
+                  <h1 class="pt-3 font-semibold">Venice Hotel</h1>
+                  <div class="flex space-x-2 pt-3">
+                     <i class="fa-solid fa-droplet text-orange-500 pt-1"></i>
+                     <h1>2715 Sh.South Dakota
+                     </h1>
+                  </div>
+                 </div>
+   
+                  <div class="flex pt-8 space-x-1">
+                     <i class="fa-solid fa-star text-orange-500  "></i>
+                     <p>4.8(45)</p>
+                  </div>
+               </div>
+   
+               <div class="">
+                  <div class="flex justify-between mt-4">
+                     <h1 class="font-semibold">$750.35</h1>
+                     <div class="flex space-x-2">
+                        <i class="fa-solid fa-poo  "></i>
+                        <p class="font-semibold">4Day/3Nigh</p>
+                     </div>
+   
+                  </div>
+               </div>
+               </div>
+
+               <!-- box3 -->
+               <div class="w-[380px] h-[370px] bg-white p-6   sm:mt-8  mt-8 rounded-lg">
+
+                  <div>
+                     <img src="./images/image1.jpg" alt="" class="w-[350px] rounded-2xl">
+                  </div>
+      
+                  <div class="flex justify-between">
+                     <div >
+                     <h1 class="pt-3 font-semibold">Venice Hotel</h1>
+                     <div class="flex space-x-2 pt-3">
+                        <i class="fa-solid fa-droplet text-orange-500 pt-1"></i>
+                        <h1>2715 Sh.South Dakota
+                        </h1>
+                     </div>
+                    </div>
+      
+                     <div class="flex pt-8 space-x-1">
+                        <i class="fa-solid fa-star text-orange-500  "></i>
+                        <p>4.8(45)</p>
+                     </div>
+                  </div>
+      
+                  <div class="">
+                     <div class="flex justify-between mt-4">
+                        <h1 class="font-semibold">$750.35</h1>
+                        <div class="flex space-x-2">
+                           <i class="fa-solid fa-poo  "></i>
+                           <p class="font-semibold">4Day/3Nigh</p>
+                        </div>
+      
+                     </div>
+                  </div>
+                  </div>
+
+                  <!-- end -->
+         </div>
+    </div>
+
+    <!-- section 4 -->
+     
+    <div class="h-screen sm:flex sm:justify-around mt-10">
+      <!-- dive one -->
+      <div class="sm:pl-3 pt-3 relative">
+         <img src="./images/pexels-asad-photo-maldives-1591361 (2) (1).jpg" alt="" class="w-[400px] h-[500px] rounded-xl ">
+         <img src="./images/1.jpg" alt="" class="w-[300px] h-[400px] absolute sm:left-[50%] sm:top-[16%] top-[30%] left-[10%] rounded-xl ">
+      </div>
+
+      <!-- dive 2 -->
+       <div class="w-[400px] mt-14 sm:p-0 p-6 ">
+         <h6 class="text-orange-600 text-[18px]">BENEFIT</h6>
+         <h1 class="text-4xl font-semibold">Confortable Facility
+            around hotels</h1>
+            <p class="pt-4 text-[12px]">
+               with our platform. we also givecustomer the best facility to enjoy while <br>
+               they stayin their favourite hotel
+            </p>
+            <div class="flex space-x-2 pt-4">
+               <i class="fa-solid fa-car text-2xl text-gray-400  "></i>
+               <div>
+                  <h1 class="font-semibold">Free Accomondation</h1>
+                  <h1 class="text-[12px]">Accomondation for you to enjoy exploringaround the hotel</h1>
+               </div>
+            </div>
+               <!--  -->
+            <div class="flex space-x-2 pt-4">
+             
+               <i class="fa-solid fa-dumbbell text-2xl text-gray-400"></i>
+               <div>
+                  <h1 class="font-semibold">Fitness Center</h1>
+                  <h1 class="text-[12px]">Accomondation for you to enjoy exploringaround the hotel</h1>
+               </div>
+            </div>
+
+            <!--  -->
+
+            <div class="flex space-x-2 pt-4">
+            
+               <i class="fa-solid fa-utensils  text-2xl text-gray-400"></i>
+               <div>
+                  <h1 class="font-semibold">Free breakfast</h1>
+                  <h1 class="text-[12px]">Accomondation for you to enjoy exploringaround the hotel</h1>
+               </div>
+            </div>
+       </div>
+    </div>
+
+    <!-- section 5 -->
+
+    <div class="bg-gray-300 sm:h-screen h-[1350px] w-screen sm:mt-0 mt-60">
+      <div class="sm:flex sm:justify-between flex justify-between sm:pl-0 pl-4 ">
+      <div class="sm:pt-8 sm:pl-20 sm:w-[400px]  w-[300px]">
+         <h1 class="text-orange-600 font-semibold ">HOT OFFER</h1>
+         <h1 class="text-2xl">Best offer of the month</h1>
+         <h1 class="sm:pt-6">Explore our best offer for you stay while you're on vacation <br>
+            with family or bussiness trip</h1>
+      </div>
+      <div class="sm:mr-20 sm:mt-20 sm:w-[200px]  mt-14  ">
+         <p class="text-orange-600">Veiow All</p>
+      </div>
+   </div>
+
+   <!-- boxes -->
+         <div class="sm:flex sm:justify-center sm:gap-2 ">
+            <div class="w-[380px] h-[370px] bg-white p-6   mt-8  rounded-lg">
+
+            <div>
+               <img src="./images/image1.jpg" alt="" class="w-[350px] rounded-2xl">
+            </div>
+
+            <div class="flex justify-between">
+               <div >
+               <h1 class="pt-3 font-semibold">Venice Hotel</h1>
+               <div class="flex space-x-2 pt-3">
+                  <i class="fa-solid fa-droplet text-orange-500 pt-1"></i>
+                  <h1>2715 Sh.South Dakota
+                  </h1>
+               </div>
+              </div>
+
+               <div class="flex pt-8 space-x-1">
+                  <i class="fa-solid fa-star text-orange-500  "></i>
+                  <p>4.8(45)</p>
+               </div>
+            </div>
+
+            <div class="">
+               <div class="flex justify-between mt-4">
+                  <h1 class="font-semibold">$750.35</h1>
+                  <div class="flex space-x-2">
+                     <i class="fa-solid fa-poo  "></i>
+                     <p class="font-semibold">4Day/3Nigh</p>
+                  </div>
+
+               </div>
+            </div>
+            </div>
+            
+            <!-- box2 -->
+
+            <div class="w-[380px] h-[370px] bg-white p-6   mt-8  rounded-lg">
+
+               <div>
+                  <img src="./images/image1.jpg" alt="" class="w-[350px] rounded-2xl">
+               </div>
+   
+               <div class="flex justify-between">
+                  <div >
+                  <h1 class="pt-3 font-semibold">Venice Hotel</h1>
+                  <div class="flex space-x-2 pt-3">
+                     <i class="fa-solid fa-droplet text-orange-500 pt-1"></i>
+                     <h1>2715 Sh.South Dakota
+                     </h1>
+                  </div>
+                 </div>
+   
+                  <div class="flex pt-8 space-x-1">
+                     <i class="fa-solid fa-star text-orange-500  "></i>
+                     <p>4.8(45)</p>
+                  </div>
+               </div>
+   
+               <div class="">
+                  <div class="flex justify-between mt-4">
+                     <h1 class="font-semibold">$750.35</h1>
+                     <div class="flex space-x-2">
+                        <i class="fa-solid fa-poo  "></i>
+                        <p class="font-semibold">4Day/3Nigh</p>
+                     </div>
+   
+                  </div>
+               </div>
+               </div>
+
+               <!-- box3 -->
+               <div class="w-[380px] h-[370px] bg-white p-6   sm:mt-8  mt-8 rounded-lg">
+
+                  <div>
+                     <img src="./images/image1.jpg" alt="" class="w-[350px] rounded-2xl">
+                  </div>
+      
+                  <div class="flex justify-between">
+                     <div >
+                     <h1 class="pt-3 font-semibold">Venice Hotel</h1>
+                     <div class="flex space-x-2 pt-3">
+                        <i class="fa-solid fa-droplet text-orange-500 pt-1"></i>
+                        <h1>2715 Sh.South Dakota
+                        </h1>
+                     </div>
+                    </div>
+      
+                     <div class="flex pt-8 space-x-1">
+                        <i class="fa-solid fa-star text-orange-500  "></i>
+                        <p>4.8(45)</p>
+                     </div>
+                  </div>
+      
+                  <div class="">
+                     <div class="flex justify-between mt-4">
+                        <h1 class="font-semibold">$750.35</h1>
+                        <div class="flex space-x-2">
+                           <i class="fa-solid fa-poo  "></i>
+                           <p class="font-semibold">4Day/3Nigh</p>
+                        </div>
+      
+                     </div>
+                  </div>
+                  </div>
+
+                  <!-- end -->
+         </div>
+    </div>
+
+    <!-- section 6 -->
+
+    <div class="mt-20 w-screen h-screen  ">
+      <h1 class="text-center text-2xl text-orange-500" >FAQS</h1>
+      <h1 class="text-3xl font-semibold text-center pt-4">Frequently ask question</h1>
+      <p class="text-center pt-4 text-gray-400">Everything you need to know right here at your fingertips. Ask questions, browse around <br>
+         for answers. or submit your feature requests.</p>
+
+
+         <div class="sm:flex sm:space-x-1 sm:flex-wrap">
+            <div class="sm:w-[500px] w-[350px] bg-gray-200 sm:ml-20 ml-6 mt-10 rounded-lg  ">
+               <div class="flex justify-between">
+                  <h1>How to booking online?</h1>
+                 <i class="fa-solid fa-arrow-down text-2xl"></i>
+               </div>
+               <p class="pt-10">
+                  Our platform is easy to use. you can search your stay <br>
+                  in the banner hero
+               </p>
+               
+            </div>
+
+           
+      
+
+            <div>
+               <div class="sm:w-[500px] w-[350px] bg-gray-200 sm:ml-0 ml-6  mt-10 h-[50px] rounded-lg">
+                  <div class="flex justify-between">
+                     <h1>How to booking online?</h1>
+                    <i class="fa-solid fa-arrow-down text-2xl"></i>
+                  </div>
+
+                  <div class="sm:w-[500px] w-[350px] bg-gray-200  mt-10 h-[50px] rounded-lg ">
+                     <div class="flex justify-between">
+                        <h1>How to booking online?</h1>
+                       <i class="fa-solid fa-arrow-down text-2xl"></i>
+                     </div>
+                  </div>
+           
+
+            </div>
+
+         </div>
+    </div>
+
+    <div class="sm:w-[500px] w-[350px] bg-gray-200  sm:mt-10 mt-6 h-[50px] rounded-lg sm:ml-20 ml-6">
+      <div class="flex justify-between">
+         <h1 class="">How to booking online?</h1>
+        <i class="fa-solid fa-arrow-down text-2xl"></i>
+      </div>
+   </div>
+   </div>
+
+   <!-- section 7 -->
+    <div class="bg-gray-200 w-screen h-[620px]" >
+    <div class=" sm:flex sm:pl-52 sm:pt-24  ">
+      <div class="relative ">
+         <img src="/images/man.jpg" alt="" class="w-[500px] rounded-lg">
+         <div class="sm:w-[450px]  sm:p-4 sm:absolute  sm:top-24 sm:left-80 bg-white shadow-xl rounded-lg">
+            <i class="fa-solid fa-quote-left text-3xl sm:pt-0 pt-4 sm:pl-0 pl-2"></i>
+            <p class="pt-4 text-[12px] ">I really enjoyed the booking hotels from Namd. with easy <br>
+               booking step, i can thing about my other holiday preparations.</p>
+               <h1 class="text-2xl pt-4 font-semibold">Brooklyn Simmons</h1>
+               <p class="sm:pb-0 pb-4">Lovely customer</p>
+
+         </div>
+      </div>
+
+      <div class="ml-4">
+         <h6 class="text-[15px] text-orange-600 font-semibold sm:pt-0 pt-6">Review</h6>
+         <h1 class="text-2xl font-semibold">What our <br>
+            customer say
+            </h1>
+            <i class="fa-solid fa-code sm:mt-52 text-xl "></i>
+      </div>
+    </div>
+   </div>
+
+
+   <!-- footer -->
+    <div class="bg-black/100 w-screen sm:h-[320px] h-[680px]">
+      <div class="sm:flex sm:justify-between sm:px-36 sm:pt-6">
+         <div>
+            <h1 class="text-white text-3xl">Join our newsletter</h1>
+            <p class="text-white text-[14px]">We'll send you a nice letter once per week. No spam</p>
+         </div>
+
+         <div class="relative">
+            <input type="text" placeholder="Enter Your Email" class="w-[350px] h-[60px] text-xl pl-3 rounded-sm border-none outline-none  ">
+            <button class="text-white bg-orange-500 py-1 px-6 rounded-md font-semibold absolute left-52 top-4">Subescribe</button>
+         </div>
+      </div>
+      <hr class="border-1 mt-4">
+
+
+      <div class="sm:flex sm:justify-between sm:mx-20 mt-8 sm:flex-none flex-wrap">
+        
+         <div>
+         <div class="sm:flex sm:space-x-2  sm:pt-0   sm:pl-32 flex space-x-2 pl-0 pt-4 ">
+            <h1 class="bg-yellow-400 w-8 h-8 text-2xl font-semibold text-center rounded-sm ">N</h1>
+            <h1 class="text-2xl font-semibold text-white">NAND</h1>
+         </div>
+         <h1 class="text-gray-300 pt-6">A joint venture is an application to collect <br>
+            fees from an agreed plan</h1>
+        </div>
+         
+            <div class="sm:absolute sm:left-[55%]">
+                  <h1 class="text-white text-2xl font-serif ">Quick Link</h1>
+                  <li class="text-gray-400 list-none">About</li>
+                  <li class="text-gray-400 list-none">Desk Support</li>
+                  <li class="text-gray-400 list-none">Services</li>
+            
+            </div>
+            <div class="sm:absolute sm:left-[70%]">
+               <h1 class="text-white text-2xl font-serif ">Company</h1>
+               <li class="text-gray-400 list-none">Location</li>
+               <li class="text-gray-400 list-none">Our Missiont</li>
+               <li class="text-gray-400 list-none">Career</li>
+            </div>
+            <div>
+               <h1 class="text-white text-2xl font-serif ">Legal Terms</h1>
+               <li class="text-gray-400 list-none">Privacy</li>
+               <li class="text-gray-400 list-none">Terms of Use</li>
+               <li class="text-gray-400 list-none">Cookis</li>
+            </div>
+      
+      </div>
+
+      <hr class="sm:mt-6 ">
+      <div class="flex space-x-1 text-white sm:mt-2 sm:m-[40%] w-[360px] ">
+         <i class="fa-regular fa-copyright text-xl"></i>
+         <h1 >
+            Copyright 2023 JM9. All rights reserved.</h1>
+      </div>
+    </div>
+</body>
+</html>
